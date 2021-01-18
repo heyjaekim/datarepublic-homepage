@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import ScrollspyNav from './scrollSpy';
-
 class Navbar extends React.Component {
     constructor(props) {
         super(props);
@@ -31,23 +29,15 @@ class Navbar extends React.Component {
 
 
                         <div className="collapse navbar-collapse" id="navbarCollapse">
-                            {/* <ScrollspyNav
-                                scrollTargetIds={["home", "about", "services", "features", "pricing", "clients", "blog", "contact"]}
-                                activeNavClass="active"
-                                scrollDuration="800"
-                                headerBackground="true"
-                                className="ml-auto"> */}
                                 <ul className="navbar-nav ml-auto navbar-center" id="mySidenav">
-                                    <li className="nav-item active"><a href="#home" className="nav-link">Home</a></li>
-                                    <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
-                                    <li className="nav-item"><a href="#services" className="nav-link">Services</a></li>
-                                    <li className="nav-item"><a href="#features" className="nav-link">Features</a></li>
-                                    <li className="nav-item"><a href="#pricing" className="nav-link">Pricing</a> </li>
-                                    <li className="nav-item"><a href="#clients" className="nav-link">Clients</a></li>
-                                    <li className="nav-item"><a href="#blog" className="nav-link">Blog</a></li>
-                                    <li className="nav-item"><a href="#contact" className="nav-link">Contact us</a> </li>
+                                    <li className="nav-item active"><a href="#aboutagi" className="nav-link">AGI</a></li>
+                                    <li className="nav-item"><a href="#aisoftware" className="nav-link">AI Software</a></li>
+                                    <li className="nav-item"><a href="#datavoucher" className="nav-link">Data Voucher</a></li>
+                                    <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
+                                    <li className="nav-item"><a href="#resources" className="nav-link">Resources</a> </li>
+                                    <li className="nav-item"><a href="#news" className="nav-link">News</a></li>
+                                    <li className="nav-item"><a href="#search" className="nav-link"><img src="images/magnifying-glass-white.png" alt="" height="20" style={{opacity:0.75}}/></a></li>
                                 </ul>
-                            {/* </ScrollspyNav> */}
                         </div>
                     </div>
                 </nav>
